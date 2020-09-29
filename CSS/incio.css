@@ -1,57 +1,14 @@
+@import url(index.css);
+@import url(menu.css);
+
 body{
-    margin: 0;
     background-color:#1a1c20;
     color: #f4f4f4;
     font-family: 'Baloo Paaji 2', cursive;    
 }
-
-header{
-    background-color: #f0a500;
-    font-family: 'Roboto Slab', serif;
-    padding: 10px 50px;
+.logo-torneo img{
+    width: 50px;
 }
 
-.cont-hd{
-    display: flex;
-    justify-content: space-between;
-}
-.cont-hd ul{
-    display: inline-flex;
-}
-header ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-/*==============================FOOTER==================================*/
-.cont-ftt{
-    font-size: 14px;
-}
-.cont-ftt ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.cont-ftt h2, p{
-    margin: 0;
-}
-.cont-ftt .cont-f-if{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 70px;
-}
-.cont-f-if hr{
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 1px;
-    margin: 0;
-    border-radius: 5px;
-    border: none;
-}
-.cont-f-if .cl-tif{
-    width: 400px;
-    flex-wrap: wrap;
-}
-.cont-f-if .cl-trds{
-    width: 300px;
-}
+/*--------------------------NORMATIVAS--------------------------*/
