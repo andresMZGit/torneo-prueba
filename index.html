@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="CSS/incio.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/34cf304f66.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
-    <script>
+    <!--<script>
         function disabletext(e){
             return false
         }
@@ -21,23 +21,53 @@
             document.onmousedown=disabletext
             document.onclick=reEnable
         }
-    </script>
+    </script>-->
 </head>
 <body>
     <header>
-        <div class="cont-hd">
-            <div class="lg-tr1">
-                <a href="#"><img src="images/esport-logo-png-7.png" alt="logo torneo" width="50px"></a>
-            </div>
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Normativas</a></li>
-                <li><a href="">Nosotros</a></li>
-            </ul>
+        <div class="cont-hd">                        
+            <a class="logo-torneo" href="#"><img src="images/esport-logo-png-7.png" alt="logo torneo"></a>
+            <input type="checkbox" id="menu-check">     
+            <label for="menu-check" class="menu-icon"><i class="fas fa-bars"></i></label>       
+            <nav class="menu-despl">
+                <ul>
+                    <li><a class="categorias-menu" href="">Inicio</a></li>
+                    <li><a class="categorias-menu" href="normativas.html">Normativas</a></li>
+                    <li><a class="categorias-menu" href="">Staff Torneo</a></li>
+                    <li><a class="categorias-menu" href="">Contáctanos</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <section id="banner" class="banner">
+            <img src="images/046.jpg" alt="">
+        </section>
+        <section id="enl-pages" class="enl-pages">
+            <h1>¿Dondé deseas ir?</h1>
+            <div class="container-enlaces">
+                <a id="normativas" href="normativas.html">Normativas</a>
+                <a id="nosotros" href="#">Staff Torneo</a>
+                <a id="contacto" href="#">Contáctanos</a>                
+            </div>
+        </section>
+        <section id="detalles-ct" class="detalles-ct">
+            <div class="container-cont">
+                <h2 class="title-cont"><i class="fas fa-angle-double-right"></i>Trailer - Torneo Latinos 2020</h2>
+                <div class="iframe-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/96vkzbnaDMc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="container-cont">
+                <h2 class="title-cont"><i class="fas fa-angle-double-right"></i>Inscripciones Torneo Latino</h2>
+                <div class="iframe-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7BpnWl8Dgag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        
+    </main>
     <footer>
         <div class="cont-ftt">
             <div class="cont-f-if">
@@ -52,15 +82,16 @@
                     <ul>
                         <li><h2>Siguenos en:</h2></li>
                         <li><hr></li>
-                        <li><a class="redes-enl" href="#">Instagram - Team Mancos</a></li>
-                        <li><a class="redes-enl" href="#">Instagram - Team Mamonas</a></li>
-                        <li><a class="redes-enl" href="#">YouTube - Ghost</a></li>
+                        <li><a class="redes-enl" href="https://www.instagram.com/team_mancos.20/"><i class="fab fa-instagram"></i>Instagram - Team Mancos</a></li>
+                        <li><a class="redes-enl" href="#"><i class="fab fa-facebook-f"></i>Facebook - Team Mamonas</a></li>
+                        <li><a class="redes-enl" href="https://www.youtube.com/channel/UCwdMDFQvdLPmXvKLEmcxLsg"><i class="fab fa-youtube"></i>YouTube - Ghost</a></li>
+                        <li><a class="redes-enl" href="https://www.youtube.com/channel/UC6X27jjT1wFajTJpMkJQPVg?view_as=subscriber"><i class="fab fa-youtube"></i>YouTube - Yesly</a></li>
                     </ul>
                 </div>
             </div>
             <div class="credts-or">
                 <h3>Torneo Latinos | Copyright&copy; 2020</h3>
-                <p>Diseñado y Desarrollado por Andrés MZ</p>
+                <h3>Diseñado y Desarrollado por Andrés MZ</p>
             </div>
         </div>
     </footer>
